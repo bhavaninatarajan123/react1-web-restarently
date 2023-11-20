@@ -1,0 +1,438 @@
+	 /*mobile*/
+@media(min-width:320px){
+						.head-icon h4{
+							font-size:9px;
+						}
+						.head-bar{
+							display:block;
+						}
+						.head-navigation{
+							display:none;
+						}
+						.head-button{
+							display:none;
+						}
+						header{
+							position:relative;
+						}
+						.head-navigation{
+							position:absolute;
+							top:100%;
+							left:70%;
+							background-color:#000;
+							
+						}
+						header:hover .head-navigation{
+							display:block;
+							
+						}
+						h1{
+							font-size: 15px;
+						}
+						
+						/*banner-section*/
+						.container{width:80%;
+						           margin:auto;}
+								   
+					    .ban-row h1{color:#ffff;
+									font-size:30px;
+									padding-top:70px;
+									padding-bottom:10px;
+									font-family:arial;}
+						
+						.ban-row h3{font-size:18px;}
+						.button{
+								width:100%;
+	
+								}
+
+						
+						
+						.ban-icon{height:60px;
+								  width:60px;
+								  padding:10px;
+								  align-items:center;}
+						
+						/*about-section*/
+						#about{width:100%;
+							   height:100%;
+						}
+						.about-row{display:flex;
+								   flex-wrap:wrap;
+								   width:100%;
+						}	
+						.about-col{width:100%;}
+						
+						/*special-section*/
+						
+						.special-row{display:flex;
+									 flex-wrap:wrap;
+						}
+						.special-col{width:100%;}
+						
+						.abo-img img{
+							width:100%;
+						}
+						/*event-section*/
+						.slide-1{
+		flex-wrap:wrap;
+	}
+	#events{
+		height:100%;
+	}
+	#card-1{
+		flex-wrap:wrap;
+	}
+	.card{
+		margin-top:20px;
+		}
+	.col-lg-4{
+	padding-left:12%;
+}
+						/*card-section*/
+						.card-row{
+							display:flex;
+							flex-wrap:wrap;
+							
+						}
+						
+						.card-col{width:100%;
+					
+						}
+						
+						/*menu-section*/
+						
+						.menu-row{
+							
+							display:flex;
+							flex-wrap:wrap;
+						}
+						.menu-col{
+							width:100%;
+						}
+						
+						/*reservation-section*/
+						
+						.reser-row{
+							width:100%;
+							display:flex;
+							flex-wrap:wrap;
+							}
+							.reser-col{
+								width:100%;
+							}
+							.reser-text textarea{
+								width:88%;
+							}
+							.reser-btn{
+								padding-left:30%;
+								padding-top:10px;
+								}
+
+						/*gallery-section*/
+						
+						.gal-col-1,.gal-col-2,.gal-col-3,.gal-col-4,.gal-col-5,.gal-col-6,.gal-col-7,.gal-col-8{width:100%;}
+						
+						/*chefs-section*/
+						
+						.chef-row{display:flex;
+								  flex-wrap:wrap;
+						}
+						.chef-col{width:100%;
+								  
+						}
+						.soc{
+							width:100%;
+						}
+						.chef-name{
+							padding-top:60%;
+						}
+						
+						/*contact-section*/
+						.cont-row{display:flex;
+						          flex-wrap:wrap;
+						}
+						/*footer-section*/
+						.footer-col{
+								width:100%;
+								}
+
+						.footer-row{
+								display:flex;
+								flex-wrap:wrap;
+								}
+						.form-subject input,.form-subject textarea{
+										   width:65%;
+										   margin-left:23%;
+						}
+}
+/*ipad*/								   
+@media(min-width:720px){
+						.head-icon{
+							font-size:10px;
+						}	
+						.head-bar{
+							display:block;
+						}
+						.head-navigation{
+							display:none;
+						}
+						.head-button{
+							display:none;
+						}
+						header{
+							position:relative;
+						
+						}
+						.head-navigation{
+							position:absolute;
+							top:100%;
+							left:70%;
+							background-color:#000;
+						}
+						header:hover .head-navigation{
+							display:block;
+							
+						}
+						h1{
+							font-size: 30px;
+						}
+						/*banner-section*/
+	
+						.container{width:60%;
+						           margin:auto;}
+								   
+						.ban-row h1{color:#ffff;
+									font-size:60px;
+									padding-bottom:20px;
+									
+									font-family:arial;}
+									
+						.button a{margin-right:20px;}
+						
+						.ban-row h3{font-size:40px;}
+						
+						/*about-section*/
+						
+						.about-row{display:flex;
+								   flex-wrap:wrap;
+						}	
+						.about-col{width:100%;}
+						
+						/*special-section*/
+						
+						.special-row{display:flex;
+									 flex-wrap:wrap;
+						}
+						.special-col{width:50%;}
+						
+						/*reservation-section*/
+						
+						.reser-row{
+							width:90%;
+							display:flex;
+							flex-wrap:wrap;
+							}
+							.reser-col{
+								width:50%;
+							}
+							.reser-text textarea{
+								width:92%;
+							}
+						.reser-btn{
+								padding-left:35%;
+						}
+						/*card-section*/
+						.card-row{
+							display:flex;
+							flex-wrap:wrap;
+							
+						}
+						
+						.card-col{width:50%;}
+						
+						/*menu-section*/
+						
+						.menu-row{
+							
+							display:flex;
+							flex-wrap:wrap;
+						}
+						.menu-col{
+							width:100%;
+						}
+						
+						/*gallery-section*/
+						
+						.gal-col-1,.gal-col-2,.gal-col-3,.gal-col-4,.gal-col-5,.gal-col-6,.gal-col-7,.gal-col-8{width:50%;}
+						
+						
+						/*chefs-section*/
+						
+						.chef-row{
+								  flex-wrap:wrap;
+						}
+						.chef-col{
+							width:100%;
+						}
+						.soc{
+							width:100%;
+						}
+						.chef-name{
+							padding-top:40%;
+						}
+						
+						/*contact-section*/
+						
+						.cont-row{display:flex;
+						          flex-wrap:wrap;
+						}
+						
+						/*footer-section*/
+						.footer-col{
+								width:50%;
+								
+								}
+
+						.footer-row{
+								display:flex;
+								flex-wrap:wrap;
+								}
+														
+}
+/*laptop*/
+@media(min-width:1000px){
+						.head-icon h4{
+							font-size:15px;
+						}
+						.head-bar{
+							display:none;
+						}
+						.head-navigation{
+							display:block;
+						}
+						.head-button{
+							display:block;
+						}
+						nav ul{
+						display:flex;
+						}
+						
+						.head-navigation{
+							position:absolute;
+							top:65%;
+							left:25%;
+							background:rgba(0,0,0,0)
+							
+						}
+						h1{
+							font-size: 30px;
+						}
+						/*banner-section*/
+	
+						.container{width:80%;
+						           margin:auto;}
+								   
+						.ban-row h1{color:#ffff;
+									font-size:60px;
+									padding-bottom:20px;
+									font-family:arial;}
+									
+						/*about-section*/
+						.about-row{display:flex;}
+							
+						.about-col{width:50%;}
+									
+						 /*card-section*/	
+						.card-col{width:33.33%;}
+						.card-row{
+							display:flex;
+							
+						}
+						
+						/*reservation-section*/
+						.reser-row{
+							width:100%;
+							display:flex;
+							flex-wrap:wrap;
+							}
+							.reser-col{
+								width:33.33%;
+							}
+							.reser-text textarea{
+								width:96%;
+							}
+							.reser-btn{
+								padding-left:45%;
+							}
+						
+						
+						/*menu-section*/
+						
+						.menu-row{
+							
+							display:flex;
+							flex-wrap:wrap;
+						}
+						.menu-col{
+							width:50%;
+						}
+						
+						/*special-section*/
+						
+						.special-row{display:flex;
+									
+						}
+						.special-col{width:33.33%;}
+						/*event-section*/
+						.col-lg-4{
+		padding-left:5%;
+	}
+						
+						/*gallery-section*/
+						
+						.gal-col-1,.gal-col-2,.gal-col-3,.gal-col-4,.gal-col-5,.gal-col-6,.gal-col-7,.gal-col-8{width:25%;}
+						
+						/*chefs-section*/
+						
+						.chef-col{
+							width:33.33%;
+						}
+						.chef-name{
+							padding-left:30px;
+								}
+						
+						/*contact-section*/
+						
+						.cont-row{width:100%;
+		                          display:flex;
+								  flex-wrap:nowrap;
+								  }
+						
+						/*footer-section*/
+						
+						.footer-col{
+							width:25%;
+							
+							}
+
+						.footer-row{
+							display:flex;
+							}
+}
+
+
+
+
+
+
+
+						
+
+
+
+
+
+
+
+						
